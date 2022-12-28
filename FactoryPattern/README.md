@@ -26,10 +26,41 @@
 
 步骤一
 
-首先创建一个接口
+首先创建一个接口，里面一个虚函数用来表示类是一个抽象类
 
-class Shape
-{
-public:
-	virtual void draw() = 0;
-};
+![image](https://user-images.githubusercontent.com/79180142/209815988-e40272f1-3ee5-4407-a95b-7eb55f793212.png)
+步骤二
+
+定义三个类来实现这个接口
+
+![image](https://user-images.githubusercontent.com/79180142/209816168-35626779-bdcb-481c-b3cb-0e7713dace37.png)
+
+步骤三
+
+定义工厂类ShapeFactory 来获取 Shape 对象，这个类和三个产品类是关联的关系
+
+![image](https://user-images.githubusercontent.com/79180142/209816604-81605463-ebc5-4a06-af0d-8dce1c0abbda.png)
+
+步骤四
+
+分别实现各接口，包括三个产品类的draw()和ShapeFactory的getShape()
+
+![image](https://user-images.githubusercontent.com/79180142/209816805-2b5c8132-9a40-4719-bc09-2bd082d26b55.png)
+
+![image](https://user-images.githubusercontent.com/79180142/209816960-ef02612c-0dae-409d-a63c-8bc746b78e35.png)
+
+步骤五
+
+功能的总调用
+
+![image](https://user-images.githubusercontent.com/79180142/209817178-6e7261ee-9b51-4356-83b2-b1769be131a4.png)
+
+注意事项：
+
+思考：
+
+
+
+
+
+
