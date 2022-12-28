@@ -89,7 +89,7 @@
 
 
 J2EE 模式
-这些设计模式特别关注表示层。这些模式是由 Sun Java Center 鉴定的
+这些设计模式特别关注表示层。这些模式是由 Sun Java Center 鉴定的.
 它们包括：
   1.MVC 模式（MVC Pattern）
   2.业务代表模式（Business Delegate Pattern）
